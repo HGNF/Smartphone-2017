@@ -1,4 +1,3 @@
-
 doctype html
 style.
 
@@ -7,23 +6,43 @@ style.
     }
 
     .ori2 {
-      background-image: url(images/002.jpg)
+      background-image: url(images/adr.jpg)
     }
 
     .ori3{
-      background-image: url(images/003.jpg)
+      background-image: url(images/adr.jpg)
     }
 
     .ori4{
-      background-image: url(images/004.jpg)
+      background-image: url(images/adr.jpg)
     }
 
     .ori5{
-      background-image: url(images/005.jpg)
+      background-image: url(images/adr.jpg)
     }
 
     .ori6{
-      background-image: url(images/006.jpg)
+      background-image: url(images/adr.jpg)
+    }
+
+    .ori7{
+      background-image: url(images/adr.jpg)
+    }
+
+    .ori8{
+      background-image: url(images/adr.jpg)
+    }
+
+    .ori9{
+      background-image: url(images/adr.jpg)
+    }
+
+    .ori10{
+      background-image: url(images/adr.jpg)
+    }
+
+    .ori11{
+      background-image: url(images/adr.jpg)
     }
 
     p{
@@ -51,7 +70,7 @@ style.
       font-size: 39px;
       text-transform: uppercase;
       width:100%;
-      animation: tada 3s ease infinite alternate;
+      animation: tada 5s ease infinite alternate;
       font-weight:600;
     }
 
@@ -62,6 +81,8 @@ style.
       animation: tada .3s ease infinite alternate;
       font-weight:600;
     } 
+
+    
     @keyframes tada {
       from {
         transform: scale3d(1, 1, 1);
@@ -83,6 +104,8 @@ style.
         transform: scale3d(1, 1, 1);
       }
     }
+
+
     .jackInTheBox {
         font-family: 'StarmiX', sans-serif;
         font-size: 35px;
@@ -112,6 +135,74 @@ style.
         }
       }
 
+      img {
+        width:50%;
+        height:auto;
+        animation: zoomIn 5s ease alternate;
+        border-radius: 55px;
+        
+      }
+
+      .zoom {
+        width:50%;
+        height:auto;
+        animation: zoomIn 5s ease alternate;
+        border-radius: 25px;
+      }
+
+      .kecil {
+        width:30%;
+        height:auto;
+        animation: zoomIn 5s ease alternate;
+        border-radius: 55px;
+      }
+      .fadeInUpBig {
+        animation: fadeInUpBig 3s ease alternate;
+      }
+      @keyframes fadeInUpBig {
+      from {
+        opacity: 0;
+        transform: translate3d(0, 2000px, 0);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+      .zoom:hover {
+        width :120%;
+        border: 25px solid #ABC transparent;
+        border-radius: 25px;
+      }
+
+      img:hover {
+        width :70%;
+        border: 25px solid #ABC transparent;
+        border-radius: 25px;
+      }
+
+      .kecil:hover {
+        width :45%;
+        border: 25px solid #ABC transparent;
+        border-radius: 25px;
+      }
+
+      
+    
+      @keyframes zoomIn {
+        from {
+          opacity: 0;
+          transform: scale3d(.3, .3, .3);
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+
+      
+
     .animasi-teks:nth-child(2) {animation-delay: .1s;}
     .animasi-teks:nth-child(3) {animation-delay: .2s;}
     .animasi-teks:nth-child(4) {animation-delay: .3s;}
@@ -128,7 +219,7 @@ style.
       src: local('StarmiX Regular'), local('StarmiX-Regular'), url('style/StarmiX.ttf') format('ttf');
     }
 
-    @@font-face {
+    @font-face {
       font-family: "Painting in the Sunlight";
       font-style: normal;
       font-weight: bold;
@@ -179,41 +270,42 @@ html
 
       section(data-bespoke-backdrop='ori3')
         h2 Smartphone
-        p Smartphone (ponsel pintar) adalah sebuah telepon mobile yang dibangun dengan sistem operasi komputer, memiliki kemampuan kalkulasi canggih, kamera pintar, tampilan yang trendy , konektifitas cepat dan banyak teknologi pintar yang membuatnya lebih dari sekedar telepon. Di tahun ini ada banyak teknologi baru yang menunjang kegunaan smartphone diantara lain :
+        p Apa itu Smartphone ? Smartphone (ponsel pintar) adalah sebuah telepon mobile yang dibangun dengan sistem operasi komputer, memiliki kemampuan kalkulasi canggih, kamera pintar, tampilan yang trendy , konektifitas cepat dan banyak teknologi pintar yang membuatnya lebih dari sekedar telepon. Di tahun ini ada banyak teknologi baru yang menunjang kegunaan smartphone diantara lain :
 
       
       section(data-bespoke-backdrop='ori5')
         h2 1. Smartphone Tanpa Bezel
-        p Tahun depan kita bakal disuguhi smartphone tanpa bezel lebih banyak lagi. Dengan meniadakan bezel, artinya kita akan bisa menikmati layar yang lebih luas tanpa harus mengorbankan portabilitas. Tentu saja, smartphone tanpa bezel itu keren! Kita sudah melihat betapa kerennya Samsung Galaxy S7 Edge dan juga Xiaomi Mi Mix dengan desain yang nyaris tanpa bezel. Ya, kita akan tetap melihat layar yang lebih besar tahun depan. Tapi, dalam ukurannya yang sama.
+        p Bezel itu apa sih ? Bezel adalah bagian tepi pada layar Smartphone. Di tahun 2017 ini beberapa produsen smartphone sudah merilis keluaran terbaru yaitu smartphone tanpa Bezel. Dengan meniadakan bezel, artinya kita akan bisa menikmati layar yang lebih luas tanpa harus mengorbankan portabilitas. Tentu saja, smartphone tanpa bezel itu keren! Kita sudah melihat betapa kerennya Samsung Galaxy S7 Edge Samsung Galaxy S8 dengan desain yang nyaris tanpa bezel. Tentu nya ini akan membuat kita semakin puas dalam menggunakan Smartphone.
 
-      section
+      section(data-bespoke-backdrop='ori6')
         h2.jackInTheBox Contoh Smartphone tanpa Bezel
-        <img src="images/r6.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
+        p <img class="zoom" src="images/s8.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
 
       section(data-bespoke-backdrop='ori6')
         h2 2. Prosesor Makin Kencang
-        p Snapdragon 835 Itu nama yang bakal kamu sering dengar tahun depan. Prosesor ini sudah diluncurkan belum lama ini dan bekerja sama dengan Samsung dengan desain 10nm. Artinya smartphone flagship 2017 punya performa yang lebih kuat, tapi tetap efisien dan hemat baterai. Samsung sendiri juga sedang mengembangkan chipset 10nm anyarnya yakni Exynos 8895 untuk Galaxy S8.
+        p Snapdragon 835, Ini adalah prosesor terbaru di tahun 2017. Prosesor ini sudah diluncurkan dan bekerja sama dengan Samsung dengan desain 10nm. Artinya smartphone flagship 2017 punya performa yang lebih kuat, tapi tetap efisien dan hemat baterai. Samsung sendiri juga sedang mengembangkan chipset 10nm anyarnya yakni Exynos 8895 untuk Galaxy S8.
 
-      section
-        h2.jackInTheBox Contoh Smartphone tanpa Bezel
-        <img src="images/r2.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
+      section(data-bespoke-backdrop='ori6')
+        h2.jackInTheBox Procesor Snapdragon 835
+        <img  src="images/psr.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
 
       section(data-bespoke-backdrop='ori4')
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-        <img src="images/r1.jpg" alt="oppo f3" style="width:640;height:240;"> 
+        h2 3.Virtual Reality
+        p Tahun ini teknologi virtual reality ibarat bayi yang baru lahir dan baru bisa kita cicipi saja. Untungnya, banyak produsen teknologi yang serius mengembangkan teknologi VR.Google punya Daydream, Samsung punya Gear VR, belum lagi Facebook dan Sony dengan PlayStation VR. Salah satu kendala tahun ini karena resolusi layar, 2K ternyata belum cukup.Maka dari itu, smartphone flagship tahun depan mungkin akan dibekali dengan resolusi layar 4K untuk VR yang lebih baik. Meskipun, perlu menyiasati untuk performa dan baterainya itu sendiri.
+ 
 
       section(data-bespoke-backdrop='ori7') 
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+        h2.jackInTheBox Contoh Virtual Reality
+        <img src="images/virtual-reality.jpeg" alt="Virtual Reality" style="padding-top:20px;">
 
+
+              
+  
       section.emphatic-text(data-bespoke-backdrop='ori8')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+        h2 Asisten Digital Berbasis Kecerdasan Buatan
+        p Saat ini smartphone flagship mulai mengungsung teknologi asisten suara berbasis kecerdasan buatan. dan tren itu akan terus meningkat hingga 2021, <br> berdasarkan riset. Walaupun Siri, Cortana, Google Now, <br> tahun ini sudah cukup pintar. Namun, kemampuannya memang masih punya keterbatasan.
 
-      section
+      section(data-bespoke-backdrop='ori9')
         h2.bullet Just the beginning...
         br
         ul
@@ -225,5 +317,14 @@ html
           li
             strong Enjoy! :)
             a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+
+
+       section.emphatic-text(data-bespoke-backdrop='ori10')
+        h2 Emphatic Slide!
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+
+       section.emphatic-text(data-bespoke-backdrop='ori11')
+        h2 Thankyou
+        h3 Design By Team 1
 
     script(src='build/build.js')
