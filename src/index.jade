@@ -71,7 +71,7 @@ style.
       font-size: 39px;
       text-transform: uppercase;
       width:100%;
-      animation: tada 3s ease infinite alternate;
+      animation: tada 5s ease infinite alternate;
       font-weight:600;
     }
 
@@ -83,7 +83,6 @@ style.
       font-weight:600;
     } 
 
-    }
     @keyframes tada {
       from {
         transform: scale3d(1, 1, 1);
@@ -105,6 +104,8 @@ style.
         transform: scale3d(1, 1, 1);
       }
     }
+
+
     .jackInTheBox {
         font-family: 'StarmiX', sans-serif;
         font-size: 35px;
@@ -134,6 +135,72 @@ style.
         }
       }
 
+      img {
+        width:50%;
+        height:auto;
+        animation: zoomIn 5s ease alternate;
+        border-radius: 55px;
+        
+      }
+
+      .zoom {
+        width:50%;
+        height:auto;
+        animation: zoomIn 5s ease alternate;
+        border-radius: 25px;
+      }
+
+      .kecil {
+        width:30%;
+        height:auto;
+        animation: zoomIn 5s ease alternate;
+        border-radius: 55px;
+      }
+      .fadeInUpBig {
+        animation: fadeInUpBig 3s ease alternate;
+      }
+      @keyframes fadeInUpBig {
+      from {
+        opacity: 0;
+        transform: translate3d(0, 2000px, 0);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+      .zoom:hover {
+        width :120%;
+        border: 25px solid #ABC transparent;
+        border-radius: 25px;
+      }
+
+      img:hover {
+        width :70%;
+        border: 25px solid #ABC transparent;
+        border-radius: 25px;
+      }
+
+      .kecil:hover {
+        width :45%;
+        border: 25px solid #ABC transparent;
+        border-radius: 25px;
+      }
+
+      
+    
+      @keyframes zoomIn {
+        from {
+          opacity: 0;
+          transform: scale3d(.3, .3, .3);
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+
     .animasi-teks:nth-child(2) {animation-delay: .1s;}
     .animasi-teks:nth-child(3) {animation-delay: .2s;}
     .animasi-teks:nth-child(4) {animation-delay: .3s;}
@@ -150,7 +217,7 @@ style.
       src: local('StarmiX Regular'), local('StarmiX-Regular'), url('style/StarmiX.ttf') format('ttf');
     }
 
-    @@font-face {
+    @font-face {
       font-family: "Painting in the Sunlight";
       font-style: normal;
       font-weight: bold;
@@ -202,39 +269,49 @@ html
       section(data-bespoke-backdrop='ori3')
         h2 Smartphone
         p Apa itu Smartphone ? Smartphone (ponsel pintar) adalah sebuah telepon mobile yang dibangun dengan sistem operasi komputer, memiliki kemampuan kalkulasi canggih, kamera pintar, tampilan yang trendy , konektifitas cepat dan banyak teknologi pintar yang membuatnya lebih dari sekedar telepon. Di tahun ini ada banyak teknologi baru yang menunjang kegunaan smartphone diantara lain :
-
       
       section(data-bespoke-backdrop='ori5')
-        h2 1. Smartphone Tanpa Bezel
-        p Bezel itu apa sih ? Bezel adalah bagian tepi pada layar Smartphone. Di tahun 2017 ini beberapa produsen smartphone sudah merilis keluaran terbaru yaitu smartphone tanpa Bezel. Dengan meniadakan bezel, artinya kita akan bisa menikmati layar yang lebih luas tanpa harus mengorbankan portabilitas. Tentu saja, smartphone tanpa bezel itu keren! Kita sudah melihat betapa kerennya Samsung Galaxy S7 Edge Samsung Galaxy S8 dengan desain yang nyaris tanpa bezel. Tentu nya ini akan membuat kita semakin puas dalam menggunakan Smartphone.
+        h2.fadeInUpBig 1. Smartphone Tanpa Bezel
+        p.fadeInUpBig Bezel itu apa sih ? Bezel adalah bagian tepi pada layar Smartphone. Di tahun 2017 ini beberapa produsen smartphone sudah merilis keluaran terbaru yaitu smartphone tanpa Bezel. Dengan meniadakan bezel, artinya kita akan bisa menikmati layar yang lebih luas tanpa harus mengorbankan portabilitas. Tentu saja, smartphone tanpa bezel itu keren! Kita sudah melihat betapa kerennya Samsung Galaxy S7 Edge Samsung Galaxy S8 dengan desain yang nyaris tanpa bezel. Tentu nya ini akan membuat kita semakin puas dalam menggunakan Smartphone.
 
       section(data-bespoke-backdrop='ori6')
         h2.jackInTheBox Contoh Smartphone tanpa Bezel
-        p <img src="images/s8.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
+        p <img class="zoom" src="images/s8.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
 
       section(data-bespoke-backdrop='ori6')
-        h2 2. Prosesor Makin Kencang
-        p Snapdragon 835, Ini adalah prosesor terbaru di tahun 2017. Prosesor ini sudah diluncurkan dan bekerja sama dengan Samsung dengan desain 10nm. Artinya smartphone flagship 2017 punya performa yang lebih kuat, tapi tetap efisien dan hemat baterai. Samsung sendiri juga sedang mengembangkan chipset 10nm anyarnya yakni Exynos 8895 untuk Galaxy S8.
+        h2.fadeInUpBig 2. Prosesor Makin Kencang
+        p.fadeInUpBig Snapdragon 835, Ini adalah prosesor terbaru di tahun 2017. Prosesor ini sudah diluncurkan dan bekerja sama dengan Samsung dengan desain 10nm. Artinya smartphone flagship 2017 punya performa yang lebih kuat, tapi tetap efisien dan hemat baterai. Samsung sendiri juga sedang mengembangkan chipset 10nm anyarnya yakni Exynos 8895 untuk Galaxy S8.
 
       section(data-bespoke-backdrop='ori6')
         h2.jackInTheBox Procesor Snapdragon 835
-        <img src="images/psr.jpg" alt="HP tanpa bezel" style="width:100;height:50;"> 
+        <img  src="images/psr.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
 
       section(data-bespoke-backdrop='ori4')
-        h2 3.Virtual Reality
-        p Tahun ini teknologi virtual reality ibarat bayi yang baru lahir dan baru bisa kita cicipi saja. Untungnya, banyak produsen teknologi yang serius mengembangkan teknologi VR.Google punya Daydream, Samsung punya Gear VR, belum lagi Facebook dan Sony dengan PlayStation VR. Salah satu kendala tahun ini karena resolusi layar, 2K ternyata belum cukup.Maka dari itu, smartphone flagship tahun depan mungkin akan dibekali dengan resolusi layar 4K untuk VR yang lebih baik. Meskipun, perlu menyiasati untuk performa dan baterainya itu sendiri.
-
-       
+        h2.fadeInUpBig 3.Virtual Reality
+        p.fadeInUpBig Tahun ini teknologi virtual reality ibarat bayi yang baru lahir dan baru bisa kita cicipi saja. Untungnya, banyak produsen teknologi yang serius mengembangkan teknologi VR.Google punya Daydream, Samsung punya Gear VR, belum lagi Facebook dan Sony dengan PlayStation VR. Salah satu kendala tahun ini karena resolusi layar, 2K ternyata belum cukup.Maka dari itu, smartphone flagship tahun depan mungkin akan dibekali dengan resolusi layar 4K untuk VR yang lebih baik. Meskipun, perlu menyiasati untuk performa dan baterainya itu sendiri.
+ 
 
       section(data-bespoke-backdrop='ori7') 
         h2.jackInTheBox Contoh Virtual Reality
-        p <img src="images/virtual-reality.jpeg" alt="Virtual Reality" style="width:100;height:50;">
-        
+        <img src="images/virtual-reality.jpeg" alt="Virtual Reality" style="padding-top:20px;">
+
+
+      section(data-bespoke-backdrop='ori8')
+        h2.fadeInUpBig 4. Sensor Jari atau Mata?
+        p.fadeInUpBig Jari atau mata adalah metode yang bakal sering kita gunakan untuk membuka kunci smartphone tahun depan. Samsung diharapkan menghadirkan fitur pemindai mata di Galaxy S8 yang sempat numpang lewat di Galaxy Note 7. Sementara, sensor sidik jari semakin merakyat tahun depan. Karena hadir sebagai fitur wajib yang harus ada di smartphone murah sekalipun.
+
+      section(data-bespoke-backdrop='ori8') 
+        h2.jackInTheBox Contoh Sensor Iris Mata
+        <img src="images/pemindai-iris.jpeg" alt="Pemindai Iris Mata" style="padding-top:20px;">
+              
   
-      section.emphatic-text(data-bespoke-backdrop='ori8')
-        h2 Asisten Digital Berbasis Kecerdasan Buatan
-        p Saat ini smartphone flagship mulai mengungsung teknologi asisten suara berbasis kecerdasan buatan. dan tren itu akan terus meningkat hingga 2021, berdasarkan riset.
-        Walaupun Siri, Cortana, Google Now, tahun ini sudah cukup pintar. Namun, kemampuannya memang masih punya keterbatasan.
+      section.emphatic-text(data-bespoke-backdrop='ori9')
+        h2.fadeInUpBig 5. Asisten Digital Berbasis Kecerdasan Buatan
+        p.fadeInUpBig Saat ini smartphone flagship mulai mengungsung teknologi asisten suara berbasis kecerdasan buatan. dan tren itu akan terus meningkat hingga 2021, berdasarkan riset. Walaupun Siri, Cortana, Google Now, tahun ini sudah cukup pintar. Namun, kemampuannya memang masih punya keterbatasan.
+
+      section(data-bespoke-backdrop='ori9') 
+        h2.jackInTheBox Contoh Google Assisten
+        <img class="kecil" src="images/google-pixel.jpeg" alt="Google Asisten" style="padding-top:20px;">
 
       section(data-bespoke-backdrop='ori9')
         h2.bullet Just the beginning...
