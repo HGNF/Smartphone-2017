@@ -6,10 +6,13 @@ style.
       background-image: url(images/001.jpg)
     }
 
-    .ori2 {
-      background-image: url(images/adr.jpg)
-    }
-
+     .ori2 {
+        display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          background-color: #91c3ef;
+          }
     .ori3{
       background-image: url(images/adr.jpg)
     }
@@ -221,7 +224,7 @@ style.
       font-family: "Painting in the Sunlight";
       font-style: normal;
       font-weight: bold;
-      src: local("Painting in the Sunlight Regular"), url("style/Dancing in the Rainbow.ttf");
+      src: local("Painting in the Sunlight Regular"), url("font/Dancing in the Rainbow.ttf");
     }
     
     
@@ -257,14 +260,11 @@ html
         h1(class='animasi-teks') Perkembangan Smartphone 2O17
         
 
-      section(data-bespoke-backdrop='ori2')
-        h3.bullet Created by Kelompok 1
-        ul
-          li Friska Pardede             (151113667)
-          li Gilang Sinaga Putra        (151111941)
-          li Hendri Korasi Simbolon     (151113586)
-          li M. Nasril Fazrin Nst       (151111861)
+    section(data-bespoke-backdrop='ori2')
+        h3(class='word')
+        script(src='js/jquery.min.js')
 
+        script(src='js/index.js')
 
       section(data-bespoke-backdrop='ori3')
         h2 Smartphone
