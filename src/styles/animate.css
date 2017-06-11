@@ -137,7 +137,7 @@
 }
 
 .shake {
-  animation-name: shake;
+  animation: shake 5s ease infinite alternate;
 }
 
 @keyframes headShake {
