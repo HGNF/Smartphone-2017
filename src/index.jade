@@ -2,17 +2,27 @@
 doctype html
 style.
 
+
    .orion {
       background-image: url(images/001.jpg)
     }
 
-     .ori2 {
-        display: -webkit-box;
+    .ori2 {
+         display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
           height: 100%;
           background-color: #91c3ef;
           }
+
+    .bg {
+         display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          background-color: #f7f2f6;
+          }
+
     .ori3{
       background-image: url(images/adr.jpg)
     }
@@ -59,7 +69,7 @@ style.
 
     .animasi-teks {
       font-family: 'StarmiX', sans-serif;
-      font-size: 50px;
+      font-size: 40px;
       width: 100%;
       letter-spacing: .3em;
       text-transform: capitalize;
@@ -86,6 +96,7 @@ style.
       font-weight:600;
     } 
 
+    
     @keyframes tada {
       from {
         transform: scale3d(1, 1, 1);
@@ -106,6 +117,25 @@ style.
       to {
         transform: scale3d(1, 1, 1);
       }
+    }
+
+
+    @keyframes rotateInUpRight {
+      from {
+        transform-origin: right bottom;
+        transform: rotate3d(0, 0, 1, -90deg);
+        opacity: 0;
+      }
+
+      to {
+        transform-origin: right bottom;
+        transform: none;
+        opacity: 1;
+      }
+    }
+
+    .rotateInUpRight {
+      animation: rotateInUpRight 2s ease-in;
     }
 
 
@@ -150,6 +180,7 @@ style.
         width:50%;
         height:auto;
         animation: zoomIn 5s ease alternate;
+        animation-duration:2s;
         border-radius: 25px;
       }
 
@@ -161,6 +192,7 @@ style.
       }
       .fadeInUpBig {
         animation: fadeInUpBig 3s ease alternate;
+        animation-duration:2s;
       }
       @keyframes fadeInUpBig {
       from {
@@ -204,6 +236,8 @@ style.
         }
       }
 
+      
+
     .animasi-teks:nth-child(2) {animation-delay: .1s;}
     .animasi-teks:nth-child(3) {animation-delay: .2s;}
     .animasi-teks:nth-child(4) {animation-delay: .3s;}
@@ -226,6 +260,10 @@ style.
       font-weight: bold;
       src: local("Painting in the Sunlight Regular"), url("font/Dancing in the Rainbow.ttf");
     }
+
+    h1 {
+      font : initial;
+    }
     
     
       @keyframes animasi-ketik{
@@ -236,6 +274,14 @@ style.
         from { width: 0; }
       }
 
+    .butt {
+      background-color: #4895c8;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn {
+        margin-top: 50px;
+    }
     
 
 
@@ -245,121 +291,36 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Perkembangan Smartphone 2017
     
+    link(rel="shortcut icon" href="../favicon.ico")
+    link(rel="stylesheet" type="text/css" href="css/style1.css")
+    link(rel="stylesheet" type="text/css" href="css/font-awesome.css")
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css')
 
     link(rel='stylesheet', type='text/css', href='build/build.css')
+    ink(rel='stylesheet', type='text/css', href='css/button.css')
     link(rel="stylesheet", type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
-    link(rel="stylesheet", type='text/css', href='style/animate.css')
-    link(rel="stylesheet", type='text/css', href='style/animate.min.css')
+    link(rel="stylesheet", type='text/css', href='css/animate.css')
+    link(rel="stylesheet", type='text/css', href='css/animate.min.css')
+    link(rel='stylesheet' href='css/style.css')
+    link(rel="stylesheet" href="css/reset.min.css")
+    link(rel="stylesheet" href="css/button.css")
 
 
   body
 
     article
-
       section(data-bespoke-backdrop='orion')
-        h1(class='animasi-teks') Perkembangan Smartphone 2O17
-        
-
-    section(data-bespoke-backdrop='ori2')
+        h1.animasi-teks Perkembangan Smartphone 2O17 
+      section(data-bespoke-backdrop='ori2')
         h3(class='word')
         script(src='js/jquery.min.js')
-
         script(src='js/index.js')
 
-      section(data-bespoke-backdrop='ori3')
-        h2 Smartphone
-        p Apa itu Smartphone ? Smartphone (ponsel pintar) adalah sebuah telepon mobile yang dibangun dengan sistem operasi komputer, memiliki kemampuan kalkulasi canggih, kamera pintar, tampilan yang trendy , konektifitas cepat dan banyak teknologi pintar yang membuatnya lebih dari sekedar telepon. Di tahun ini ada banyak teknologi baru yang menunjang kegunaan smartphone diantara lain :
-      
-      section(data-bespoke-backdrop='ori5')
-        h2.fadeInUpBig 1. Smartphone Tanpa Bezel
-        p.fadeInUpBig Bezel itu apa sih ? Bezel adalah bagian tepi pada layar Smartphone. Di tahun 2017 ini beberapa produsen smartphone sudah merilis keluaran terbaru yaitu smartphone tanpa Bezel. Dengan meniadakan bezel, artinya kita akan bisa menikmati layar yang lebih luas tanpa harus mengorbankan portabilitas. Tentu saja, smartphone tanpa bezel itu keren! Kita sudah melihat betapa kerennya Samsung Galaxy S7 Edge Samsung Galaxy S8 dengan desain yang nyaris tanpa bezel. Tentu nya ini akan membuat kita semakin puas dalam menggunakan Smartphone.
+      section(data-bespoke-backdrop='bg')
+        h2 Mari Mulai
+        <a href="isi.html" class="btn"><span>Go !</span></a>
 
-      section(data-bespoke-backdrop='ori6')
-        h2.jackInTheBox Contoh Smartphone tanpa Bezel
-        <img  src="images/s8.jpg" alt="HP tanpa bezel" style="padding-top:20px;"> 
-
-      section(data-bespoke-backdrop='ori6')
-        h2.fadeInUpBig 2. Prosesor Makin Kencang
-        p.fadeInUpBig Snapdragon 835, Ini adalah prosesor terbaru di tahun 2017. Prosesor ini sudah diluncurkan dan bekerja sama dengan Samsung dengan desain 10nm. Artinya smartphone flagship 2017 punya performa yang lebih kuat, tapi tetap efisien dan hemat baterai. Samsung sendiri juga sedang mengembangkan chipset 10nm anyarnya yakni Exynos 8895 untuk Galaxy S8.
-
-      section(data-bespoke-backdrop='ori6')
-        h2.jackInTheBox Procesor Snapdragon 835
-        <img  src="images/psr.jpg" alt="HP tanpa bezel" style="padding-top:20px;">
-
-      section(data-bespoke-backdrop='ori6')
-        h2.fadeInUpBig 3. RAM Lebih Besar
-        p.fadeInUpBig Snapdragon 820/821 berpadu RAM 4 GB/6 GB adalah pemandangan umum tahun ini. Tahun depan, mungkin saatnya Snapdragon 835 dan RAM 6 GB/8 GB.Ya, RAM 8 GB. Mungkin kita akan bertanya-tanya,buat apa ya? Semoga saja sistem multitasking di Android bisa lebih bagus lagi, jadi kita bisa memaksimalkan hardware yang ada.
-
-      section(data-bespoke-backdrop='ori6')
-        h2.jackInTheBox Procesor Snapdragon 835
-        <img  src="images/ram.jpg" alt="HP tanpa bezel" style="padding-top:20px;">  
-
-      section(data-bespoke-backdrop='ori4')
-        h2.fadeInUpBig 4.Virtual Reality
-        p.fadeInUpBig Tahun ini teknologi virtual reality ibarat bayi yang baru lahir dan baru bisa kita cicipi saja. Untungnya, banyak produsen teknologi yang serius mengembangkan teknologi VR.Google punya Daydream, Samsung punya Gear VR, belum lagi Facebook dan Sony dengan PlayStation VR. Salah satu kendala tahun ini karena resolusi layar, 2K ternyata belum cukup.Maka dari itu, smartphone flagship tahun depan mungkin akan dibekali dengan resolusi layar 4K untuk VR yang lebih baik. Meskipun, perlu menyiasati untuk performa dan baterainya itu sendiri.
- 
-
-      section(data-bespoke-backdrop='ori7') 
-        h2.jackInTheBox Contoh Virtual Reality
-        <img src="images/virtual-reality.jpeg" alt="Virtual Reality" style="padding-top:20px;">
-
-
-      section(data-bespoke-backdrop='ori8')
-        h2.fadeInUpBig 5. Sensor Jari atau Mata?
-        p.fadeInUpBig Jari atau mata adalah metode yang bakal sering kita gunakan untuk membuka kunci smartphone tahun depan. Samsung diharapkan menghadirkan fitur pemindai mata di Galaxy S8 yang sempat numpang lewat di Galaxy Note 7. Sementara, sensor sidik jari semakin merakyat tahun depan. Karena hadir sebagai fitur wajib yang harus ada di smartphone murah sekalipun.
-
-      section(data-bespoke-backdrop='ori8') 
-        h2.jackInTheBox Contoh Sensor Iris Mata
-        <img src="images/pemindai-iris.jpeg" alt="Pemindai Iris Mata" style="padding-top:20px;">
-              
-  
-      section.emphatic-text(data-bespoke-backdrop='ori9')
-        h2.fadeInUpBig 6. Asisten Digital Berbasis Kecerdasan Buatan
-        p.fadeInUpBig Saat ini smartphone flagship mulai mengungsung teknologi asisten suara berbasis kecerdasan buatan. dan tren itu akan terus meningkat hingga 2021, berdasarkan riset. Walaupun Siri, Cortana, Google Now, tahun ini sudah cukup pintar. Namun, kemampuannya memang masih punya keterbatasan.
-
-      section(data-bespoke-backdrop='ori9') 
-        h2.jackInTheBox Contoh Google Assisten
-        <img class="kecil" src="images/google-pixel.jpeg" alt="Google Asisten" style="padding-top:20px;">
-
-      section(data-bespoke-backdrop='ori9')
-        h2.fadeInUpBig 7. Pembayaran Mobile
-        p.fadeInUpBig Pembayaran mobile juga merupakan fitur terbaru yang ada di tahun ini. Google punya Android Pay dan beberapa vendor smartphone juga menawarkan pembayaran mobile dengan teknologi mereka sendiri seperti Samsung Pay dan Apple Pay. Jadi dengan ada nya pembayaran mobile ini masyarakat akan lebih terbantu dalam hal pembayaran karena tidak harus menggunakan uang tunai.
-
-       section.emphatic-text(data-bespoke-backdrop='ori10')
-        h2.jackInTheBox Contoh Pembayaran Mobile
-        <img  src="images/pbr.jpg" alt="Google Asisten" style="padding-top:20px;">
-
-       section(data-bespoke-backdrop='ori9')
-        h2.fadeInUpBig 8. Kamera Profesional
-        p.fadeInUpBig Teknologi kamera selalu mengalami peningkatan pada smartphone flagship setiap tahunnya. Kamera smartphone memang sangat dapat diandalkan. Di tahun 2017 ini setiap smartphone memiliki kamera yang sangat baik , dengan resolusi yang tinggi ini menjadi daya tarik masyarakat dalam hal pembelian smartphone , beberapa kamera yang sangat baik di tahun ini adalah Samsung galaxy A dan S , iphone dan , Oppo smartphone.
-
-       section.emphatic-text(data-bespoke-backdrop='ori10')
-        h2.jackInTheBox Contoh Smartphone Dengan Kamera Profesional
-        <img  src="images/kmr.jpg" alt="Google Asisten" style="padding-top:20px;"> 
-
-    section(data-bespoke-backdrop='ori11') 
-        h2.fadeInUpBig 7. USB Type-C dan Hilangnya Jack Audio 3.5mm
-        p.fadeInUpBig Kita tidak bisa menahan perkembangan teknologi. Mau tak mau USB Type-C akan menjadi standar tahun depan menggantu standar microUSB saat ini. Sementara, jack audio 3.5 mm juga mungkin bakal mulai ditinggalkan oleh banyak produsen. Alasannya untuk membuat smartphone yang lebih tipis, tapi tetap dibekali dengan daya tahan baterai yang mumpuni.
         
-        
-    section(data-bespoke-backdrop='ori11') 
-        h2.jackInTheBox Contoh USB Type-C
-        <img  src="images/usb.jpg" alt="USB Type C" style="padding-top:20px;"> 
-        
-    section(data-bespoke-backdrop='ori12') 
-        h2.fadeInUpBig 8. Lebih Fun dengan Dual Camera
-        p.fadeInUpBig Fitur dual camera sejatinya bukan fitur baru. Smartphone pertama dengan kamera ganda adalah HTC One M8. Huawei menggandeng Leica, menggebrak keunggulan dual camera untuk meningkatkan hasil foto.Sementara, LG G5 dan V20 memilih untuk memberikan sudut pandang yang luas. Terus, ada juga Apple iPhone 7 Plus untuk foto bokeh yang lebih profesional.
-        
-        
-    section(data-bespoke-backdrop='ori12') 
-        h2.jackInTheBox Contoh USB Type-C
-        <img  src="images/camera.jpg" alt="Dual Cam" style="padding-top:20px;"> 
-
-
-
-
-       section.emphatic-text(data-bespoke-backdrop='ori11')
-        h2 Thankyou
-        h3 Design By Team 1
-
+    
+     
     script(src='build/build.js')
