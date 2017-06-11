@@ -1,0 +1,377 @@
+=======================
+INFORMASI UMUM
+
+Nama kelompok : HGNF 
+Alamat Github : https://github.com/HGNF/Smartphone-2017.git
+Alamat Trello : https://trello.com/b/Acfp3V8S
+Judul Topik   : Perkembangan Smartphone 2017 
+
+Anggota 1
+Nama: Hendri Korasi Simbolon
+NIM: 15.111.3586
+
+Anggota 2
+Nama: Gilang Sinaga Putra
+NIM: 15.111.1941
+
+Anggota 3
+Nama: Muhammad Nasril Fazrin Nst.
+NIM: 15.111.1861 
+
+Anggota 4
+Nama: Friska Pardede
+NIM:  15.111.3667
+=======================
+
+SPRINT
+------
+Sprint 1: 
+18/5 - 19/5
+Scrummaster: Hendri Korasi Simbolon (15.111.3586)
+
+Sprint 2:
+20/5 - 21/5
+Scrummaster: Muhammad Nasril Fazrin Nst. (15.111.1861)
+
+Sprint 3: 
+22/5 - 23/5
+Scrummaster: Friska Pardede (15.111.3667)
+
+Sprint 4:
+24/5 - 25/5
+Scrummaster: Gilang Sinaga Putra (15.111.1941)
+
+======================
+
+18/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya membuat beberapa backlog baru pada trello untuk memperbanyak pembagian tugas dan mengubah beberapa quick notes untuk mempermudah penggunaan github oleh anggota lainnya 
+2. Saya mendapati kendala dalam hal kurangnya waktu untuk mengeksekusi atau memulai sprint backlog.
+
+
+(NASRIL):
+1. Hari ini saya melakukan konfigurasi dan "adaptasi" terhadap aplikasi-aplikasi yang kelak akan sering diperlukan dalam pengerjaan project ini. 
+
+
+(FRISKA):
+1. Hari ini saya mempelajari backlog, quick notes dan pengeditan readme.md dan Scrum Master.
+2. Saya ada kendala di dalam mengatur pengeksekusian sprint backlog.
+
+(GILANG):
+1. Hari ini saya melakukan clone.
+2. Saya ada kendala yaitu saya kurang terbisa dengan git hub.
+
+=====================
+19/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya membuat First Commit
+
+
+(NASRIL):
+1. Hari ini saya melakukan commit untuk "Readme" agar empermudah penggunaan github oleh anggota lainnya    
+
+
+(FRISKA):
+1. Hari ini saya telah mempelajari backlog, quick notes dan readme
+
+(GILANG):
+1. Hari ini saya mempelajari penulisan Jade menggunakan sublime untuk proyek ini.
+
+=====================
+20/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan beberapa perubahan thema pada slide utama, membuat slide khusus untuk perkenalan Properti.
+2. Hari ini saya melakukan commit "Change Cover Page Style and Theme Bespoke"
+
+
+(NASRIL):
+1. Hari ini saya mempelajari penulisan Jade dan pembuatan halaman  
+
+(FRISKA):
+1. Saya memiliki kendala dalam hal kurangnya pengetahuan customisasi bespoke yang mengakibatkan terhambatnya proses pengeditan.
+
+(GILANG):
+1. Hari ini saya telah mengatur dan mempersiapkan beberapa slide atau materi yang akan digunakan.
+
+===================
+21/5
+Daily Scrum
+(HENDRI):
+1. Mencari transisi tiap slide
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Mengumpulkan gambar yang terkait dengan materi.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. mencari gambar background.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Mencari dan menyiapkan materi yang akan di commit
+2. Saya tidak mendapati kendala hari ini.
+
+==================
+22/5
+Daily Scrum
+(HENDRI):
+1. Melakukan commit "Change Cover Presentation and Theme" yaitu perubahan cover dan tema.
+2. Melakukan commit "Merge branch 'master' of https://github.com/HGNF/Smartphone-2017"
+
+(NASRIL):
+1. Hari ini saya tidak berkonstribusi.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya tidak berkonstribusi.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya tidak berkonstribusi.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+25/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan Wrong Push.
+
+(NASRIL):
+1. Hari ini saya mecari referensi untuk isi slide selanjutnya.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya melakukan commit slide 1 dan 2 dan penggantian background.
+2. melakukan penghapusan dan mengedit indax.jade 
+3. melakukan commit untuk slide 2 & 3 dengan background
+
+(GILANG):
+1. Hari ini saya mecari referensi untuk isi slide selanjutnya.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+29/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan commit untuk isi dari slide 3.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya melakukan commit untuk perbaikan isi dari slide 3.
+2. Hari ini saya melakukan commit untuk perbaikan isi dari slide 4.
+
+(FRISKA):
+1. Hari ini saya melakukan beberapa perubahan pada index.jade.
+2. Hari ini saya mencari gambar pendukung.
+
+(GILANG):
+1. Hari ini saya melakukan commit untuk perbaikan isi dari slide 3.
+2. Saya tidak mendapati kendala hari ini.
+====================
+30/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan commit untuk menambahkan animasi di Slide 1 dan meng update CSS
+2. Hari ini saya melakukan commit untuk memperbaiki index.jade yang conflict
+
+(NASRIL):
+1. Hari ini saya melakukan commit untuk perbaikan gambar dan penambahan isi slide
+
+(FRISKA):
+1. Hari ini saya melakukan commit untuk meng Update index.jade
+2. Hari ini saya juga melakukan penambahan gambar di slide 3 & 4.
+
+(GILANG):
+1. Hari ini saya mencari referensi untuk isi dari slide selanjutnya.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+31/5
+Daily Scrum
+(HENDRI):
+1. Hari ini saya mempelajari tentang membuat design agar menarik.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya mempelajari tentang membuat transisi
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya tidak berkonstribusi.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya melakukan commit untuk isi dari slide 8.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+1/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya memperbaiki code CSS dan menambahkan CSS img.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya tidak berkonstribusi.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya merancang menyiapkan isi dari slide 5
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya melakukan commit untuk penambahan isi dari slide 10.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+2/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan commit untuk Fix CSS dan menambahkan CSS img.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya mempelajari tentang error yg terjadi pada jade.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya menyiapkan isi dari slide 5
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya tidak berkontribusi.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+3/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya mempercantik tampilan slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya mempelajari jika terjadi error pada jade.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya melakukan commit untuk isi dari slide 5
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya mencari bahan materi yang lebih.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+4/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan beberapa perubahan.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya melakukan commit untuk Perbaikan Error Jade.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya melakukan pengeditan pada bagian tampilan.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya mempercantik tampilan slide.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+5/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan beberapa perubahan untuk transisi antar slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya melakukan commit untuk Penambahan isi Slide 14-17.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya mempercantik tampilan slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya melakukan pengeditan pada bagian tampilan.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+6/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan beberapa perubahan yang lebih bagus antara slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya melakukan commit untuk Perbaikan gambar slide 5 dan penambahan isi slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya mengumpulkan materi untuk slide berikutnya.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya merapikan beberapa slide-slide yang ada.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+10/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya melakukan commit untuk transisi yang lebih bagus antara slide dan memperbaiki CSS.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya merapikan dan mempercantik tampilan slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya mengumpulkan dan menyiapkan materi selanjutnya yang akan di commit.
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya mengumpulkan dan menyiapkan materi selanjutnya yang akan di commit.
+2. Saya tidak mendapati kendala hari ini.
+
+====================
+11/6
+Daily Scrum
+(HENDRI):
+1. Hari ini saya merapikan dan mempercantik tampilan slide.
+2. Saya tidak mendapati kendala hari ini.
+
+(NASRIL):
+1. Hari ini saya merapikan beberapa slide-slide yang ada.
+2. Saya tidak mendapati kendala hari ini.
+
+(FRISKA):
+1. Hari ini saya melakukan commit untuk Penambahan materi untuk slide 7 & 8
+2. Saya tidak mendapati kendala hari ini.
+
+(GILANG):
+1. Hari ini saya melakukan commit untuk Penambahan materi
+2. Saya tidak mendapati kendala hari ini.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
